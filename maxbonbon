@@ -1,0 +1,17 @@
+Début maxBonbon (prix reel, argent reel)
+
+Si prix ET argent > 0
+   Tant que argent > prix
+   argent <- argent - prix
+   maxBonbon <- maxBonbon +1
+   fin boucle
+   retourner maxBonbon
+Sinon 
+   Retourner "erreur"  
+   
+fin maxBonbon  
+   
+   
+
+
+
